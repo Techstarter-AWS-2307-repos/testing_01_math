@@ -1,0 +1,44 @@
+{
+    "tests": [
+      {
+        "name": "Addition Operator",
+        "setup": "",
+        "run": "npx jest --testNamePattern 'Addition Operator'",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 20
+      },
+      {
+        "name": "Subtract Operator",
+        "setup": "",
+        "run": "npx jest --testNamePattern 'Subtract Operator'",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 20
+      },
+      {
+        "name": "Division Operator",
+        "setup": "",
+        "run": "npx jest --testNamePattern 'Division Operator'",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 20
+      },
+      {
+        "name": "Multiplication Operator",
+        "setup": "",
+        "run": "npx jest --testNamePattern 'Multiplication Operator'",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 20
+      }
+    ]
+  }
