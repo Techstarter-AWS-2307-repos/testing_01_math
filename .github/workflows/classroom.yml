@@ -3,7 +3,8 @@ name: Autograding
 on: [push, pull_request]
 
 jobs:
-  autograding:
+  build:
+    name: Autograding
     runs-on: ubuntu-latest
 
     steps:
@@ -19,5 +20,4 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Autograding
-        uses: education/autograding@v1
+      - uses: education/autograding@v1
